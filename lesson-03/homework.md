@@ -33,4 +33,7 @@ def foo(arg1):
 @mean(2)
 def boo(arg1):
     pass
+
+for _ in range(100):
+    foo("Walter")
 ```
