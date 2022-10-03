@@ -24,7 +24,7 @@ def dump_data(data, fileobj, writer=BaseReader):
 
 dump_data({"x": "1"}, fileobj, writer=JsonWriter)  # в fileobj записывается json {"x": "1"}
 
-data = read(fileobj, reader=JsonReader)
+data = read_data(fileobj, reader=JsonReader)
 assert data == {"x": "1"}
 ```
 
