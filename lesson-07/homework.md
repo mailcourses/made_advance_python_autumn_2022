@@ -14,11 +14,11 @@ class TxtWriter(BaseWriter):
 
 
 # использование
-def read_data(fileobj, reader=BaseReader):
+def read_data(fileobj, reader: BaseReader):
     # возвращает распаршенные данные
     pass
 
-def dump_data(data, fileobj, writer=BaseReader):
+def dump_data(data, fileobj, writer: BaseWriter):
     pass
 
 
