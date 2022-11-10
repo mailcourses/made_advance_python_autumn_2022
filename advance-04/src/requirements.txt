@@ -1,0 +1,4 @@
+cffi==1.15.1
+cutils==1.0.0
+Cython==0.29.32
+pycparser==2.21
