@@ -25,7 +25,7 @@ def predict_message_mood(
 assert predict_message_mood("Чапаев и пустота", model) == "отл"
 ```
 
-### 2. Тестирование int
+### 2. Тестирование int и метода str.partition()
 
 ### 3. Тесты в отдельном модуле
 
